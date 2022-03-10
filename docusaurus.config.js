@@ -68,7 +68,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Documentation",
             items: [
               {
                 label: "Introduction",
@@ -85,15 +85,15 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                href: "https://stackoverflow.com",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.com/app",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com",
               },
             ],
           },
@@ -107,6 +107,15 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/facebook/docusaurus",
+              },
+            ],
+          },
+          {
+            title: "Sponsors",
+            items: [
+              {
+                label: "No one sponsored this project T_T",
+                href: "#",
               },
             ],
           },
