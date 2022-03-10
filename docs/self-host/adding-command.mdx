@@ -1,0 +1,76 @@
+---
+sidebar_position: 6
+---
+
+# Adding new Command
+
+If you want to creating new command, of course you can add it into appropriate categories you want.
+
+## Normal Command
+
+Normal command can be executed by putting a prefix before the command name.
+
+To create normal command, Create new file at `src/Commands/CategoryYouWant/`. Copy this template into your new `*.ts` file
+
+```ts title="src/Commands/**/*.ts"
+import { Message, MessageEmbed } from "discord.js";
+import { Command } from "../../Interfaces";
+
+export const command: Command = {
+  name: "test", // Command name
+  description: "", // Description of the Command
+  aliases: [], // Aliases
+  usage: "", // Usage
+  testOnly: false, // Is the command limited to your server only?
+  permissions: [], // Required perms to run this command
+  run: async (client, message, args) => {
+    // Your code here
+    message.channel.send({ content: "Hello from Koyorin & TypeScript" });
+  },
+};
+```
+
+Then, Test your newly created command with `[prefix]test`. Where prefix is your configured prefix at `.env`
+
+:::tip Tip
+
+Use development server to restart server when any changes made to watched file.
+
+:::
+
+## Slash Command
+
+This is a hotly discussed things at Discord. Now you can make your own slash command you want.
+
+Create new file at `src/Slash/CategoryYouWant/`, then copy this template into your new `*.ts` file.
+
+```ts title="src/Slash/**/*.ts"
+import { MessageEmbed } from "discord.js";
+import { Slash } from "../../Interfaces";
+
+export const slash: Slash = {
+  name: "test", // Command name
+  description: "", // Description of the Command
+  testOnly: false, // Is the command limited to your server only?
+  options: [], // Slash command options
+  run: async (client, interaction, args) => {
+    // Send a message when slash command is executed
+    interaction.followUp({
+      content:
+        "Hello from Koyorin & TypeScript! This is a slash command. Right?",
+    });
+  },
+};
+```
+
+Then, Test your newly created slash command by typing `/test` in Discord chat.
+
+:::info No slash commands detected at the server?
+
+Make sure you have passed `bot` and `application.commands` scopes in [Discord Developer Portal](https://discord.com/developers/applications).
+
+Then, Invite back your bot using the newly generated link.
+
+![application.commands scope](https://cdn.upload.systems/uploads/YwXZIFS7.png)
+
+:::
