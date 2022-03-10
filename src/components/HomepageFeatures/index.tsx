@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Koyorin was actively maintained at GitHub. We commonly update it's
+        Koyorin was actively maintained at <a href="https://github.com/gifaldyazkaa/koyorin">GitHub</a>. We commonly update it's
         dependencies and the code.
       </>
     ),
