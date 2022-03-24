@@ -1,41 +1,30 @@
-# Website
+# 📄 Koyorin Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Netlify Status](https://img.shields.io/netlify/7dc40a21-7a2a-4ab8-a617-cf01b10db778?logo=netlify&style=for-the-badge)]() [![License](<(https://img.shields.io/github/license/koyorin/koyorin?style=for-the-badge)>)](./LICENSE) [![Made with](https://img.shields.io/badge/Made%20with-Docusaurus-green?style=for-the-badge)](https://docusaurus.io)
 
-### Installation
+## ➡️ Installation
 
-```
-$ yarn
-```
+### 📥 Clone Project
 
-### Local Development
-
-```
-$ yarn start
+```bash
+git clone https://github.com/koyorin/docs.git koyodocs
+cd koyodocs
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### 📦 Install all required dependencies
 
-### Build
-
-```
-$ yarn build
+```bash
+yarn
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### 🏃 Start development server
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+yarn start
 ```
 
-Not using SSH:
+### 🎉 Open http://localhost:3000 to see the result.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## 😶‍🌫️ Current Status
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+In development / Under construction
