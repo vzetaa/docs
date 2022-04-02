@@ -1,6 +1,8 @@
 {
-  "name": "koyodoc",
+  "name": "zetadoc",
   "version": "0.0.0",
+  "license": "Apache-2.0",
+  "author": "Gifaldy Azka <me@falcxxdev.ml> (https://falcxxdev.ml)",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
