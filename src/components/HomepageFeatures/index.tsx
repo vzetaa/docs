@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Koyorin was designed with lots useful commands. And it's really easy to
+        Zeta was designed with lots useful commands. And it's really easy to
         use!
       </>
     ),
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Koyorin was actively maintained at <a href="https://github.com/gifaldyazkaa/koyorin">GitHub</a>. We commonly update it's
+        Zeta was actively maintained at <a href="https://github.com/vzetaa/zeta">GitHub</a>. We commonly update it's
         dependencies and the code.
       </>
     ),
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Koyorin is built with Node.js and it's really easy to self-host this
+        Zeta is built with Node.js and it's really easy to self-host this
         bot!
       </>
     ),
