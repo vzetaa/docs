@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Koyorin",
-  tagline: "Our Beloved Maid and Helper Discord Bot",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Zeta",
+  tagline: "Our Beloved Helper Discord Bot",
+  url: "https://zetaa.gq",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo.svg",
-  organizationName: "gifaldyazkaa", // Usually your GitHub org/user name.
-  projectName: "koyorin", // Usually your repo name.
+  favicon: "img/logo.png",
+  organizationName: "vzetaa", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   presets: [
     [
@@ -24,14 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/vzetaa/docs/tree/master/docs/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/vzetaa/docs/tree/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -44,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Koyorin",
+        title: "Zeta",
         logo: {
-          alt: "Koyorin Logo",
-          src: "img/logo.svg",
+          alt: "Zeta Logo",
+          src: "img/logo.png",
         },
         items: [
           {
@@ -58,7 +56,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/gifaldyazkaa/koyorin",
+            href: "https://github.com/vzetaa/zeta",
             label: "GitHub",
             position: "right",
           },
@@ -106,7 +104,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/vzetaa/zeta",
               },
             ],
           },
