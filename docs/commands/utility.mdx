@@ -1,0 +1,67 @@
+---
+sidebar_position: 7
+---
+
+# Utility
+
+List of Utility commands.
+
+## Notes
+
+```yml
+<> = Required value (Must be filled)
+[] = Optional value (Can be filled or ignored)
+```
+
+## Normal usage
+
+### Avatar
+
+Return user avatar
+
+```tsx
+Command : !avatar
+Aliases : !pfp
+Usage   : !avatar [User?: DiscordUser]
+Example : !avatar
+```
+
+### Clear Message
+
+Delete messages in specified amount
+
+```tsx
+Command : !clear
+Aliases : !cls
+Usage   : !clear <Amount: Number> // 5-100
+Example : !clear 50
+```
+
+### Parse RSS
+
+Parse RSS (XML) into Read-able Text
+
+```tsx
+Command : !parse-rss
+Aliases : !rss-parse
+Usage   : !parse-rss <RSSUrl: String>
+Example : !parse-rss https://twitter.com/vestiazeta/feed.xml
+```
+
+## Slash Commands usage
+
+### Avatar
+
+Return user avatar
+
+```tsx
+Command : /avatar [User?: DiscordUser]
+```
+
+### Parse RSS
+
+Parse RSS (XML) into Read-able Text
+
+```tsx
+Command : /rss <RSSUrl: String>
+```
