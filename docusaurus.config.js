@@ -76,6 +76,10 @@ const config = {
                 label: "Self-hosting",
                 to: "/docs/self-host/installation",
               },
+              {
+                label: "Commands",
+                to: "/docs/commands/admin",
+              },
             ],
           },
           {
