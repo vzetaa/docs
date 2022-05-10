@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 # VTubers
@@ -15,7 +15,7 @@ Get Channel Information, Upcoming stream, and Video metadata from VTuber's chann
 
 ## Normal usage
 
-### Channel Info
+### Channel information
 
 Get VTuber's Channel Info.
 
@@ -26,7 +26,7 @@ Usage   : !chinfo <ChannelID: String>
 Example : !chinfo UCTvHWSfBZgtxE4sILOaurIQ
 ```
 
-### Upcoming Stream
+### Upcoming stream
 
 Query and See Upcoming Stream from a VTuber's Channel.
 
@@ -37,9 +37,9 @@ Usage   : !next-stream <ChannelID: String>
 Example : !next-stream UCTvHWSfBZgtxE4sILOaurIQ
 ```
 
-### Video Info (Metadata)
+### Upload information
 
-Get Video Metadata by Video ID.
+Get video or live uploads metadata by video id
 
 ```tsx
 Command : !videoinfo
@@ -50,8 +50,26 @@ Example : !vidinfo LS7ccVIIKdw
 
 ## Slash Commands usage
 
-:::info Not available
+### Channel information
 
-Slash commands is not available yet.
+Get VTubers channel info
 
-:::
+```jsx
+Command : /vtuber-channel <ChannelID: String>
+```
+
+### Upcoming stream
+
+Get upcoming live stream of vtubers
+
+```jsx
+Command : /vtuber-next-stream <ChannelID: String>
+```
+
+### Upload information
+
+Get video or live uploads metadata by video id
+
+```jsx
+Command : /vtuber-upload-info <VideoID: String>
+```

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 # Utility
@@ -15,17 +15,6 @@ List of Utility commands.
 
 ## Normal usage
 
-### Avatar
-
-Return user avatar
-
-```tsx
-Command : !avatar
-Aliases : !pfp
-Usage   : !avatar [User?: DiscordUser]
-Example : !avatar
-```
-
 ### Clear Message
 
 Delete messages in specified amount
@@ -37,31 +26,61 @@ Usage   : !clear <Amount: Number> // 5-100
 Example : !clear 50
 ```
 
-### Parse RSS
+### GitHub User
 
-Parse RSS (XML) into Read-able Text
+Search for GitHub user by username
 
 ```tsx
-Command : !parse-rss
-Aliases : !rss-parse
-Usage   : !parse-rss <RSSUrl: String>
-Example : !parse-rss https://twitter.com/vestiazeta/feed.xml
+Command : !github
+Aliases : !gh
+Usage   : !github <Username: String>
+Example : !github gifaldyazkaa
+```
+
+### Say
+
+Say a text
+
+```
+Command : !say
+Aliases : !echo
+Usage   : !say <Text: String>
+Example : !say hi
+```
+
+### Urban Dictionary
+
+Search slang word meanings from Urban Dictionary
+
+```tsx
+Command : !urban
+Aliases : !urban-dict
+Usage   : !urban <Word: String>
+Example : !urban cunny
 ```
 
 ## Slash Commands usage
 
-### Avatar
+### GitHub User
 
-Return user avatar
+Search for GitHub user by username
 
-```tsx
-Command : /avatar [User?: DiscordUser]
+```jsx
+Command : /github <Username: String>
 ```
 
-### Parse RSS
+### Say
 
-Parse RSS (XML) into Read-able Text
+Say a text
 
-```tsx
-Command : /rss <RSSUrl: String>
+```jsx
+Command : /say <Text: String>
+```
+
+### Urban Dictionary
+
+Search slang word meanings from Urban Dictionary
+
+```jsx
+Command : /urban <Word: String>
 ```

@@ -1,0 +1,61 @@
+---
+sidebar_position: 6
+---
+
+# Security
+
+Security category. Useful for moderations.
+
+:::info Information
+You need `KICK_MEMBERS` & `BAN_MEMBERS` permission if you want to performing moderation actions with these commands. And you can't punish member with same role or higher role than you.
+:::
+
+## Notes
+
+```yml
+<> = Required value (Must be filled)
+[] = Optional value (Can be filled or ignored)
+```
+
+## Normal usage
+
+### Ban member
+
+Permanently ban a member from server with specified reason
+
+```jsx
+Command : !ban
+Aliases : !bonk
+Usage   : !ban <Member: GuildMember> [Reason: String]
+Example : !ban RustUser🤓#6969 he use rust. no rust user here.
+```
+
+### Kick member
+
+Kick a member from server with specified reason
+
+```jsx
+Command : !kick
+Aliases : No aliases
+Usage   : !kick <Member: GuildMember> [Reason: String]
+Example : !kick RustUser🤓#6969 he use rust. no rust user here.
+```
+
+### Unban member
+
+Revoke member bans from server with user id
+
+```jsx
+Command : !unban
+Aliases : !unbonk
+Usage   : !unban <UserID: Number>
+Example : !unban 788260234409672754
+```
+
+## Slash Command usage
+
+:::info Not available
+
+Slash commands for this category is not available. Just use this command using normal-way.
+
+:::
