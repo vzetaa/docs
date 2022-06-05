@@ -13,13 +13,13 @@ A node.js >= 16.12.0 setup with [yarn](https://yarnpkg.com) is highly recommende
 ```bash
 $ yarn install
 #
-# yarn install v1.22.18
+# yarn install v1.22.xx
 # [1/4] 🔍  Resolving packages...
 # [2/4] 🚚  Fetching packages...
 # [3/4] 🔗  Linking dependencies...
 # [4/4] 🔨  Building fresh packages...
 #
-# ✨  Done in 4.38s.
+# ✨  Done in 1s.
 ```
 
 ### 🏃 Start development server
@@ -27,16 +27,16 @@ $ yarn install
 ```bash
 $ yarn start
 #
-# yarn run v1.22.18
+# yarn run v1.22.xx
 # $ docusaurus start --host=0.0.0.0
 #
 # [INFO] Starting the development server...
-# [SUCCESS] Docusaurus website is running at http://localhost:3000/.
+# [SUCCESS] Docusaurus website is running at http://127.0.0.1:3000/.
 #
 # ✔ Client
-#   Compiled successfully in 0.92ms
+#   Compiled successfully in 0.25ms
 #
-# Client (webpack 5.70.0) compiled successfully
+# Client (webpack x.xx.x) compiled successfully
 ```
 
 ## 😶‍🌫️ Current Status
